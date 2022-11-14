@@ -1,0 +1,112 @@
+body {
+	text-align: center;	
+	font-family: 'Sono', sans-serif;
+	background-color: teal;
+	font-weight: bold;
+}
+
+#gameBoard {
+	width: 700px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	justify-content: center;
+	background-color: hotpink;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.gameHole {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	background-color: lightgray;	
+	margin: 10px;
+}
+
+h1 {
+	font-size: 3em;
+	color: white;
+}
+
+h2, p {
+	font-size: 1.5em;
+	color: white;
+}
+
+.largeContainer{
+	display:flex ;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container{
+	display:flex ;
+	justify-content: center;
+	vertical-align: middle;
+	align-items: center;
+	height: 50px;
+}
+
+.playerContainer{
+	display:flex ;
+	justify-content: center;
+}
+
+.empty{
+	width: 30%;
+}
+
+input {
+	max-width: 22%;
+	height: 50px;
+	font-size: 1.75em;
+	text-align: center;
+	justify-items: center;
+}
+
+.inputOne{
+	background-color: blue;
+	color: white;
+}
+
+.inputTwo{
+	background-color: green;
+	color: white;
+}
+
+#playerNames {
+	font-size: 1.75em;
+	max-width: 40%;
+	height: 50px;
+	padding: 5px;
+	background-color: orange;
+	color: white;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	justify-items: center;
+}
+
+#replayButton:hover {
+	background-color: white;
+	color: orange;
+	cursor: pointer;
+}
+
+#replayButton {
+	font-size: 1.75em;
+	width: 150px;
+	height: 50px;
+	padding: 5px;
+	background-color: orange;
+	color: white;
+	border-radius: 10px;
+	justify-items: center;
+
+}
